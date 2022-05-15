@@ -1,0 +1,24 @@
+{
+    "manifest_version":3,
+    "name": "NoYtAd",
+    "version": "1.000",
+    "icons": {
+        "128":"logo.png",
+        "32":"logo.png",
+        "16":"logo.png"
+    },
+    "description":"No Youtube ADs",
+    "action": {
+        "default_icon": {
+            "128":"logo.png",
+            "32":"logo.png",
+            "16":"logo.png"
+        },
+        "default_title": "NoYtAds"
+        // "default_popup":"popup1.html"
+    },
+    "background": {
+        
+        "service_worker": "bg.js"
+    }
+}
